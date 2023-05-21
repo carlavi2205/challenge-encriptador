@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Vector.png" class="logo" alt="Logo Alura">
+        <img src="imagenes/depositphotos_469681916-stock-illustration-database-database-encryption-encrypted-icon.jpg" class="logo2" alt="imagen">
+        
+    </header>
+    <div class="container">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+        </div>
+        <div class="terminos">
+            <p>⚠ SOLO LETRAS MINÚSCULAS Y SIN ACENTOS.⚠</p>
+        </div>
+        <div class="botones">
+            <button button style="margin: 10px" class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+            <button button style="margin: 10px"class="btn-desencriptar" type"button onclick="desencriptar()"">Desencriptar</button>
+        </div>
+        </div>
+        <div class="encriptado">
+            <img src="imagenes/espera.png" alt="figura" id="muñeco">
+            <div class="mensaje-encriptado" id="mensaje">
+                <h2 id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+                <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <!--<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea> -->
+            </div>
+        </div>
+    
+</body>
+<footer>
+    ENCRIPTADOR CHALLENGE-ALURA - BY CARLA ÁVILA
+    <div class="contenedor">
+        <a href="https://github.com/carlavi2205"><i class="fa-brands fa-github" class="github"></i></a>
+        <a href="https://twitter.com/carlie_avi"><i class="fa-brands fa-twitter" class="twitter"></i></a>
+    </div>
+</footer>
+<script src="index.js"></script>
+</html>
