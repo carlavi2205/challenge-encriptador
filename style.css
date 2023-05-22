@@ -205,13 +205,13 @@ header{
         top: 65%;
     }
     .terminos p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .botones{
         width: 80%;
         left: 10%;
-        top: 60%
-        
+        top: 59%
+
     }
     .btn-encriptar,
     .btn-desencriptar{
@@ -239,6 +239,8 @@ header{
         display: none;
         visibility: hidden;
     }
+    
+    
 }
 footer{
     color: #fadaf5;
