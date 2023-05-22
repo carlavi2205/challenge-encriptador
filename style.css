@@ -210,7 +210,8 @@ header{
     .botones{
         width: 80%;
         left: 10%;
-        top: 70%;
+        top: 60%
+        
     }
     .btn-encriptar,
     .btn-desencriptar{
